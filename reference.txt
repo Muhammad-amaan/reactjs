@@ -1,0 +1,2 @@
+Router Example - https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
+Network Request - https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
