@@ -70,6 +70,9 @@ label{
     box-sizing: border-box;
     min-height: 32px;
     font-size: 16px;
+    border-radius: 3px;
+    box-shadow: inset 0px 2px 3px #f9f9f9;
+    font-family: Roboto;
 }
 
 .btn{
@@ -102,4 +105,9 @@ btn-block:last-child{
     background-color: #1773ce;
     color: #fff;
     border-color: #0f65bb;
+}
+
+img{
+    width: auto;
+    vertical-align: middle;
 }
