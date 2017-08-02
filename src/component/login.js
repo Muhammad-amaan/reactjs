@@ -81,7 +81,7 @@ export default class Login extends React.Component{
                          <div className="form-group">
                              <button type="button" className="btn btn-md btn-primary btn-block" to="/"> Login </button>
                              <button type="submit" className="btn btn-md btn-primary btn-block"> Register </button>
-                             <Link className="" to='/register'>Register</Link>
+                             <Link className="" to='/admin'>Home</Link>
                          </div>
                      </div>
                  </form>
