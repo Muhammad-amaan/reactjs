@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
+
 import Layout from './component/layout';
 // import Login from './component/login';
 // import Admin from './component/admin';
+
 
 
 // class LoginComponent extends React.Component{

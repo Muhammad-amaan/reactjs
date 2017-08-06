@@ -34,7 +34,7 @@
     </noscript>
     <div id="root"></div>
     <div id="login-screen"></div>
-    <div id="wrapper">
+    <div id="wrapper" class="toggled">
         <div class="admin-header" id="header">
 
         </div>
@@ -54,10 +54,13 @@
     <script src="%PUBLIC_URL%/assets/bootstrap/js/jquery.js"></script>
     <script src="%PUBLIC_URL%/assets/bootstrap/js/bootstrap.js"></script>
     <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
+      $(document).ready(function(){
+          $("#menu-toggle").click(function(e) {
+              e.preventDefault();
+              $("#wrapper").toggleClass("toggled");
+          });
+      });
+
     </script>
   </body>
 </html>
